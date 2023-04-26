@@ -22,7 +22,7 @@ def main():
         print("there is no meals matched")
     else:
         for index, meal in enumerate(meal_data["meals"], 1):
-            print(f"{index}- {meal['strMeal']}: \n  {meal['strInstructions']}")
+            print(f"{index}- {meal['strMeal']}:\n{meal['strInstructions']}")
             print("-" * 20)
 
 
